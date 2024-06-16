@@ -32,11 +32,11 @@ MODEL = tf.keras.models.load_model(MODEL_PATH)
 CLASS_NAMES = ['Potato Early blight', 'Potato Late blight', 'Potato healthy']
 print('Model loaded successfully!')
 
-# origins = [
-#     "http://localhost:3000",
-#     "http://localhost",
-#     "https://potato-frontend-red.vercel.app"
-# ]
+origins = [
+    "http://localhost:3000",
+    "http://localhost",
+    "https://potato-frontend-bgld.onrender.com/"
+]
 
 
 
@@ -45,7 +45,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Update with your frontend URL
+    allow_origins=origins,  # Update with your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
