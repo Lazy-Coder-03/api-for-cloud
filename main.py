@@ -33,6 +33,7 @@ CLASS_NAMES = ['Potato Early blight', 'Potato Late blight', 'Potato healthy']
 print('Model loaded successfully!')
 
 origins = [
+    "*",
     "http://localhost:3000",
     "http://localhost",
     "https://potato-frontend-bgld.onrender.com/"
