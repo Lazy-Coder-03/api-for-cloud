@@ -71,7 +71,6 @@ pyparsing
 python-dateutil
 python-dotenv
 python-multipart
-pywin32
 PyYAML
 pyzmq
 requests
