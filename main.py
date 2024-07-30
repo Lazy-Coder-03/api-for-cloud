@@ -36,7 +36,7 @@ origins = [
     "*",
     "http://localhost:3000",
     "http://localhost",
-    "https://potato-frontend-bgld.onrender.com/"
+   "https://plant-infect-detect.onrender.com/" "https://potato-frontend-bgld.onrender.com/"
 ]
 
 
