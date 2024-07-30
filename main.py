@@ -29,14 +29,15 @@ if not os.path.exists(MODEL_PATH):
 # Load the model
 MODEL = tf.keras.models.load_model(MODEL_PATH)
 
-CLASS_NAMES = ['Potato Early blight', 'Potato Late blight', 'Potato healthy']
+CLASS_NAMES = ['Potato Early Blight', 'Potato Late Blight', 'Potato Healthy']
 print('Model loaded successfully!')
 
 origins = [
     "*",
     "http://localhost:3000",
     "http://localhost",
-   "https://plant-infect-detect.onrender.com/",       "https://potato-frontend-bgld.onrender.com/"
+   "https://plant-infect-detect.onrender.com/",
+"https://potato-frontend-bgld.onrender.com/"
 ]
 
 
